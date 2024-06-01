@@ -5,7 +5,7 @@ title: Home
 <ul>
     {% for category in site.categories %}
         <li>
-            <h2><a href="{{ category.url }}">{{ category.title }}</a></h2>
+            <h2><a href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a></h2>
         </li>
     {% endfor %}
 </ul>
@@ -15,7 +15,7 @@ title: Home
 <ul>
     {% for recipe in site.posts %}
         <li>
-            <h2><a href="{{ recipe.url }}">{{ recipe.title }}</a></h2>
+            <h2><a href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></h2>
             {{ recipe.excerpt }}
         </li>
     {% endfor %}
