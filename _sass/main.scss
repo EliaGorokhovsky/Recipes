@@ -1,0 +1,34 @@
+@import "_navbar";
+@import "_responsive-layout";
+@import "_vars";
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: $faintblue;
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.header {
+    background: $skyblue;
+    text-align: center;
+}
+
+img {
+    border-radius: 1rem;
+    padding: 1rem;
+    height: auto;
+}
+
+.p {
+    color: $offblack;
+    font: garamond;
+}

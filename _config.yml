@@ -1,0 +1,25 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "recipe"
+  - scope:
+      path: ""
+      type: "categories"
+    values: 
+      layout: "category"
+  - scope: 
+      path: ""
+    values:
+      layout: "default"
+
+
+collections:
+  categories:
+    output: true 
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

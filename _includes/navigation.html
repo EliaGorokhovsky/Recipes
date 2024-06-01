@@ -1,0 +1,24 @@
+<nav class="navbar">
+    <ul>
+        {% for item in site.data.navigation %}
+            <li>
+                <a href="{{ item.link }}" 
+                    {% if page.url == item.link %}
+                    class="active"
+                    {% endif %}>
+                    {{ item.name }}
+                </a>
+            </li>
+        {% endfor %}
+        {% for item in site.categories %}
+            <li>
+                <a href="{{ item.url }}" 
+                    {% if page.url == item.url %}
+                    class="active"
+                    {% endif %}>
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
