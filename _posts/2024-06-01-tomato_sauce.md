@@ -1,5 +1,5 @@
 ---
-category: light_dish
+category: sauce
 title: Tomato Sauce
 ---
 
