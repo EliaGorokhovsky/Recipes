@@ -4,11 +4,22 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }}: {{ page.category }}</p>
 
+<h3>Makes {{ page.quantity }}</h3>
+
 <h2>Ingredients</h2>
 <ul>
     {% for ingredient in page.ingredients %}
         <li>
             {{ ingredient[0] | capitalize }}: {{ ingredient[1] }}
+        </li>
+    {% endfor %}
+</ul>
+
+<h2>Equipment</h2>
+<ul>
+    {% for equipment in page.equipment %}
+        <li>
+            {{ equipment | capitalize }}
         </li>
     {% endfor %}
 </ul>
