@@ -3,11 +3,11 @@ category: dessert
 title: Chocolate "Potatoes"
 ingredients:
     Kedem tea biscuits: 64 finely crushed
-    whole milk: 750 mL
+    whole milk: 600 mL
     large eggs: 2
     granulated sugar: 2/3 c
     all-purpose flour: 3 heaping tbsp
-    cocoa: 2 tbsp
+    cocoa: 2 tbsp + more to coat
     butter: 100 g
     wine: 7 tbsp (less for underage consumers)
 equipment: 
@@ -30,7 +30,7 @@ Increase heat on the milk to medium-high or high. When the milk starts steaming,
 
 Mix until the mixture is homogeneous, making sure to scrape bits off the bottom frequently. 
 
-Wait for the mixture to boil and bubble a bit; you can help this process out by moving the mixture around so it gets thinner in some regions. When it's almost ready, it will make a hissing or crackling sound: this is the bubbles trying to form. Once it begins to bubble, turn off the heat and wait for the mixture to cool.
+Wait for the mixture to boil and bubble a bit; you can help this process out by moving the mixture around so it gets thinner in some regions. When it's almost ready, it will make a hissing or crackling sound: this is the bubbles trying to form. Once it begins to bubble, turn off the heat and wait for the mixture to cool, then transfer to bowl.
 
 Add the butter and wine. Add the crushed biscuits and mix with your hands until it reaches the consistency of Play-Doh.
 
